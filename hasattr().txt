@@ -1,0 +1,9 @@
+# hasattr()  ->checks if an object has a given attribute or method
+# syntax: hasattr(obj_name,'attr' or 'method_name')
+class cat:
+    meow="me me"
+    def paws(self):
+        pass
+c=cat()
+print(hasattr(c,'meow'))
+print(hasattr(c,'paws'))
